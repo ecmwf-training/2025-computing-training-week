@@ -1,0 +1,7 @@
+ipykernel
+kaleido
+covjsonkit
+earthkit==0.11.2
+lxml
+nbformat
+earthkit-plots==0.3.2
