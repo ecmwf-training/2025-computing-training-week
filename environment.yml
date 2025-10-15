@@ -16,6 +16,7 @@ dependencies:
     - covjsonkit
     - lxml
     - nbformat
+    - polytope-client==0.7.8
     - earthkit-regrid
     - earthkit-data
     - earthkit-geo
