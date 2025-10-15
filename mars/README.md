@@ -6,7 +6,7 @@ If you are running this outside the HPC/ECS environment, you need to create an .
 Place this file in your $HOME directory and populate it with the content from your [ecmwf api key](https://api.ecmwf.int/v1/key/)
 
 
-## 1. If Running on the HPC
+## 1. If Running on the HPC/ECS
 
 If you're working on the ECMWF HPC system, load the appropriate Python module:
 
