@@ -1,0 +1,10 @@
+name: eccodes_grib_training
+channels:
+  - conda-forge
+dependencies:
+  - eccodes
+  - cfgrib
+  - earthkit-data
+  - earthkit-geo
+  - earthkit-utils
+  - xarray
