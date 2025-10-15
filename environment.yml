@@ -1,0 +1,18 @@
+name: eccodes_grib_training
+channels:
+  - conda-forge
+dependencies:
+  - eccodes
+  - cfgrib
+  - earthkit-regrid
+  - earthkit-data
+  - earthkit-geo
+  - earthkit-utils
+  - earthkit-plots
+  - xarray
+  - pip
+  - pip:
+    - ecmwf-api-client==1.6.3
+    - jupyter_contrib_nbextensions
+    - jupyterlab
+    - netcdf4
