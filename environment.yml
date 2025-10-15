@@ -4,11 +4,6 @@ channels:
 dependencies:
   - eccodes
   - cfgrib
-  - earthkit-regrid
-  - earthkit-data
-  - earthkit-geo
-  - earthkit-utils
-  - earthkit-plots
   - xarray
   - pip
   - pip:
@@ -16,3 +11,13 @@ dependencies:
     - jupyter_contrib_nbextensions
     - jupyterlab
     - netcdf4
+    - ipykernel
+    - kaleido
+    - covjsonkit
+    - lxml
+    - nbformat
+    - earthkit-regrid
+    - earthkit-data
+    - earthkit-geo
+    - earthkit-utils
+    - earthkit-plots==0.3.2
