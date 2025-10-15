@@ -21,4 +21,5 @@ dependencies:
     - earthkit-data
     - earthkit-geo
     - earthkit-utils
+    - earthkit-transforms
     - earthkit-plots==0.3.2
