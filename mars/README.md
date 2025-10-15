@@ -1,6 +1,10 @@
 # Follow the steps below to prepare your environment before running the examples.
 
 ---
+## Authentication
+If you are running this outside the HPC/ECS environment, you need to create an .ecmwfapirc file.
+Place this file in your $HOME directory and populate it with the content from your [ecmwf api key](https://api.ecmwf.int/v1/key/)
+
 
 ## 1. If Running on the HPC
 
