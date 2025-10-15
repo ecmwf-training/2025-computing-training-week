@@ -1,4 +1,4 @@
-name: eccodes_grib_training
+name: training
 channels:
   - conda-forge
 dependencies:
