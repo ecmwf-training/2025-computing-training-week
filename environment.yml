@@ -1,3 +1,4 @@
+name: comp_training
 channels:
   - conda-forge
 dependencies:
