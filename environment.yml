@@ -17,9 +17,4 @@ dependencies:
     - lxml
     - nbformat
     - polytope-client==0.7.8
-    - earthkit-regrid
-    - earthkit-data
-    - earthkit-geo
-    - earthkit-utils
-    - earthkit-transforms
-    - earthkit-plots==0.3.2
+    - earthkit==0.13.1
