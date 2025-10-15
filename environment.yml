@@ -1,0 +1,24 @@
+name: comp_training
+channels:
+  - conda-forge
+dependencies:
+  - eccodes
+  - cfgrib
+  - xarray
+  - pip
+  - pip:
+    - ecmwf-api-client==1.6.3
+    - jupyter_contrib_nbextensions
+    - jupyterlab
+    - netcdf4
+    - ipykernel
+    - kaleido
+    - covjsonkit
+    - lxml
+    - nbformat
+    - polytope-client==0.7.8
+    - earthkit-regrid
+    - earthkit-data
+    - earthkit-geo
+    - earthkit-utils
+    - earthkit-plots==0.3.2
