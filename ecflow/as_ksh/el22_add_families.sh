@@ -11,6 +11,6 @@ printf "# Creating suite definition\n"
             task t2    # a second task
 	    endfamily
 	    endsuite
-	    NODE=$SUITE
+	    NODE=/$SUITE
 $CLIENT --replace $NODE $DEFS
 printf "# replaced node ${NODE} into $HOST $PORT\n"
