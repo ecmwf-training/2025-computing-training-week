@@ -22,10 +22,9 @@ ecflow_client --host ecfg-${USER}-1 --replace /${NODE:=test} test.def
      edit ECF_STATUS_CMD 'troika status -o %ECF_JOBOUT% %SCHOST% %ECF_JOB%'
   ```
 
-- for jobs targeting HPC, head.h shall be updated iwth
+- for jobs targeting HPC, head.h shall be updated with
 
   ```# $HOME/ecflow_servers/include/head.h
-# ...
 module load ecflow
   ```
 
